@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar--item">
+                <img class="icon" src="images/notification.svg" alt="">
+            </div>
+            <div class="navbar--item">
+                <img class="icon" src="images/comment.svg" alt="">
+            </div>
+            <div class="navbar--item ">
+                <img src="images/moon.svg" alt="" class="navbar--theme-dark icon">
+                <img src="images/sun.svg" alt="" class="navbar--theme-light icon">
+            </div>
+            <div class="navbar--profile">
+                <img src="images/foto.png" alt="" class="profile--item">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="chart">
+            <div class="chart--item">
+                <canvas id="myChart"></canvas>
+
+            </div>
+        </section>
+        <section class="option">
+            <div class="option--config">
+
+            </div>
+            <div class="option--value">
+
+            </div>
+            <div class="option--stats">
+
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
